@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, as shown on the web store.",
+      "message": "Redirects Google Lens to the normal image results"
+   },
+   "appName": {
+      "description": "Title of the application, as displayed on the web store.",
+      "message": "Disable Google Lens"
+   }
+}
