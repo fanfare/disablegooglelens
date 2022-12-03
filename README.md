@@ -1,6 +1,6 @@
 # Disable Google Lens
 
-![Disable Google Lens]([https://i.imgur.com/M1adeLz.png](https://i.imgur.com/RmRnWVr.png))
+![Disable Google Lens](https://i.jollo.org/93zaVjSJ.png)
 
 This extension redirects *Google Lens* results to the normal image results.
 
