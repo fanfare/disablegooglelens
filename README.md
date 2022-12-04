@@ -10,6 +10,6 @@ Note: on Chrome, the right click menu option will still say "Search image with G
 
 ## Installation
 
-This extension is available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/disable-google-lens/dkapjhgpncbeiebegegdbpgfoabdkilh)
+This extension is available on [Chrome Web Store](https://chrome.google.com/webstore/detail/disable-google-lens/dkapjhgpncbeiebegegdbpgfoabdkilh).
 
 It is also available as a [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/disablegooglelens/).
