@@ -10,7 +10,7 @@ This version adds a new "Search Google for image" context menu item which loads 
 
 After installing, you may want to remove the old/redundant "Search image with Google Lens" context menu item; Here's how to remove it:
 
-- go to the URL: `chrome://settings/searchEngines`
+- go to this URL: `chrome://settings/searchEngines`
 - scroll down and click the `Add` button (it's on the right-hand side)
 - set the `Search engine` field to be: `Google (w/o Lens)`
 - set the `Keyword` or `Shortcut` field to be: `google`
