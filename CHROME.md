@@ -1,6 +1,6 @@
 ## Chrome users
 
-Version `0.0.2` is an update specifically for Chrome users and is pending review on the Chrome Web Store.
+Version [`0.0.2`](https://github.com/fanfare/disablegooglelens/releases/0.0.2) is an update specifically for Chrome users and is pending review on the Chrome Web Store.
 
 If you want to try it out now, it can be loaded as an unpacked extension via the [ZIP file](https://github.com/fanfare/disablegooglelens/releases/download/0.0.2/disable-google-lens_manifest_v3_chrome-0.0.2.zip).
 
