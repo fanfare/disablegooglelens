@@ -8,7 +8,7 @@ This version adds a new "Search Google for image" context menu item which loads 
 
 ---
 
-### Post-installation
+#### Post-installation
 
 Once installed, you may want to remove the unnecessary "Search image with Google Lens" context menu item. Here's how you can do that:
 
