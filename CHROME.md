@@ -2,7 +2,7 @@
 
 Version `0.0.2` is an update specifically for Chrome users and is pending review on the Chrome Web Store.
 
-If you want to try it out now, it can be loaded as an unpacked extension via the [ZIP file](https://github.com/fanfare/disablegooglelens/releases/download/0.0.2/disable-google-lens_manifest_v3_chrome-0.0.2.zip)).
+If you want to try it out now, it can be loaded as an unpacked extension via the [ZIP file](https://github.com/fanfare/disablegooglelens/releases/download/0.0.2/disable-google-lens_manifest_v3_chrome-0.0.2.zip).
 
 This version adds a new "Search Google for image" context menu item which loads image results in a new tab (instead of in the Side Panel)
 
