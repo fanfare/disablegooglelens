@@ -4,7 +4,7 @@
 
 This extension redirects *Google Lens* results to the normal image results.
 
-Works as a standalone extension or with [Google Images Restored](https://github.com/fanfare/googleimagesrestored).
+Works as a standalone extension or with [Google Images Restored](https://github.com/fanfare/googleimagesrestored) (which hides the side panel on *Google Images* entirely).
 
 Note: on Chrome, the right click menu option will still say "Search image with Google Lens", but the end result will be like how it used to be.
 
