@@ -9,15 +9,15 @@ This version adds a new "Search Google for image" context menu item which loads 
 If you want to remove the unneeded/redundant "Search image with Google Lens" context menu item, do the following:
 
 - go to [chrome://settings/searchEngines](chrome://settings/searchEngines)
-- click the `Add` button
+- click the *Add* button
 - set the `Search engine` field to be: `Google (w/o Lens)`
 - set the `Keyword` or `Shortcut` field to be: `google`
 - set the `URL with %s in place of query` field to be the following:
 
     {google:baseURL}search?q=%s&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchboxStats}{google:searchFieldtrialParameter}{google:iOSSearchLanguage}{google:prefetchSource}{google:searchClient}{google:sourceId}{google:contextualSearchVersion}ie={inputEncoding}
     
-- click `Add`
-- scroll down and find the `Google (w/o Lens) item under `Other search engines`
-- click the 3 dots and select `Make Default`
+- click *Add*
+- scroll down and find the `Google (w/o Lens)` item under *Other search engines*
+- click the 3 dots and select *Make Default*
 
 This should eliminate the unneeded "Search image with Google Lens" item from Chrome >97 (and removes the reundant "Search Google for image" item from Chrome <=96).
