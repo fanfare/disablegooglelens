@@ -6,6 +6,8 @@ If you want to try it out now, it can be loaded as an unpacked extension via the
 
 This version adds a new "Search Google for image" context menu item which loads image results in a new tab (instead of in the Side Panel)
 
+---
+
 #### Post-installation
 
 Once installed, you may want to remove the unnecessary "Search image with Google Lens" context menu item. Here's how you can do that:
