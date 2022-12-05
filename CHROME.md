@@ -21,9 +21,6 @@ After installing, you may want to remove the old/redundant "Search image with Go
 
 - in chrome, go to: `chrome://settings/searchEngines`
 - scroll down and click the `Add` button (it's on the right-hand side)
-
-![click the add button](http://telnet.asia/add1.png)
-
 - set the `Search engine` field to be: `Google (w/o Lens)`
 - set the `Keyword` or `Shortcut` field to be: `google`
 - set the `URL with %s in place of query` field to be the following:
@@ -35,3 +32,9 @@ After installing, you may want to remove the old/redundant "Search image with Go
 - click the 3 dots next to it on the right and select `Make Default`
 
 This should eliminate the unneeded "Search image with Google Lens" item from Chrome `>=97` (and removes the reundant "Search Google for image" item from Chrome `<=96`).
+
+|[http://telnet.asia/add1.png](http://telnet.asia/add1.png)
+
+|[http://telnet.asia/add2.png](http://telnet.asia/add2.png)
+
+|[http://telnet.asia/add3.png](http://telnet.asia/add3.png)
