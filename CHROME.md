@@ -8,7 +8,7 @@ This version adds a new "Search Google for image" context menu item which loads 
 
 ---
 
-Once installed, you may want to remove the unnecessary *Search image with Google Lens* context menu item. Here's how you can do that:
+Once installed, you may want to remove the unnecessary "Search image with Google Lens" context menu item. Here's how you can do that:
 
 - go to the URL: `chrome://settings/searchEngines`
 - click the `Add` button
@@ -22,4 +22,4 @@ Once installed, you may want to remove the unnecessary *Search image with Google
 - scroll down and find the newly-created `Google (w/o Lens)` entry
 - click the 3 dots next to it and select `Make Default`
 
-This should eliminate the unneeded *Search image with Google Lens* item from Chrome `>97` (and removes the reundant *Search Google for image* item from Chrome `<=96`).
+This should eliminate the unneeded "Search image with Google Lens" item from Chrome `>97` (and removes the reundant "Search Google for image" item from Chrome `<=96`).
