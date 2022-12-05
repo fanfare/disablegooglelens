@@ -21,7 +21,7 @@ After installing, you may want to remove the old/redundant "Search image with Go
 
 - in chrome, go to: `chrome://settings/searchEngines`
 - scroll down and click the `Add` button (it's on the right-hand side)
-- 
+
 ![click the add button](http://telnet.asia/add1.png)
 
 - set the `Search engine` field to be: `Google (w/o Lens)`
