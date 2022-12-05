@@ -1,4 +1,4 @@
-### Chrome users
+## Chrome users
 
 Version `0.0.2` is an update specifically for Chrome users and is pending review on the Chrome Web Store.
 
