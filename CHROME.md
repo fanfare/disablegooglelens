@@ -4,11 +4,11 @@ Version [`0.0.2`](https://github.com/fanfare/disablegooglelens/releases/0.0.2) i
 
 If you want to try it out now, it can be loaded as an unpacked extension via the [ZIP file](https://github.com/fanfare/disablegooglelens/releases/download/0.0.2/disable-google-lens_manifest_v3_chrome-0.0.2.zip).
 
-This version adds a new "Search Google for image" context menu item which loads image results in a new tab (instead of in the Side Panel)
+This version adds a new "Search Google for image" context menu item which loads image results in a new tab (instead of in the side panel)
 
 ### Post-installation
 
-Once the extension has been installed, you may want to remove the old/redundant "Search image with Google Lens" context menu item. Here's how you can do that:
+Once the extension has been installed, you may want to remove the old/redundant "Search image with Google Lens" context menu item:
 
 - go to the URL: `chrome://settings/searchEngines`
 - click the `Add` button
