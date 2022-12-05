@@ -22,4 +22,4 @@ Once the extension has been installed, you may want to remove the old/redundant 
 - scroll down and find the newly-created `Google (w/o Lens)` entry (probably under `Site Search`)
 - click the 3 dots next to it on the right and select `Make Default`
 
-This should eliminate the unneeded "Search image with Google Lens" item from Chrome `>97` (and removes the reundant "Search Google for image" item from Chrome `<=96`).
+This should eliminate the unneeded "Search image with Google Lens" item from Chrome `>=97` (and removes the reundant "Search Google for image" item from Chrome `<=96`).
