@@ -9,8 +9,13 @@
   "icons": { 
     "128": "128.png", 
     "48": "48.png", 
-    "32": "32.png" 
+    "32": "32.png",
+    "16": "16.png"
   },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["contextMenus"],
   "content_scripts": [
     {
       "js": [ "content-script.js" ],
