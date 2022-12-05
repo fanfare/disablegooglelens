@@ -11,6 +11,7 @@ If you want to try it out now,
 - download the [ZIP file](https://github.com/fanfare/disablegooglelens/releases/download/0.0.2/disable-google-lens_manifest_v3_chrome-0.0.2.zip)
 - unzip the file
 - in chrome, go to: chrome://extensions
+- remove any previously installed version of `Disable Google Lens`
 - enable Developer Mode (top right corner).
 - drag the unzipped folder anywhere on the page to import it (do not delete the folder afterwards).
 
