@@ -1,6 +1,6 @@
 ## Chrome users
 
-Version [`0.0.2`](https://github.com/fanfare/disablegooglelens/releases/0.0.2) is an update specifically for Chrome users and is pending review on the Chrome Web Store.
+Version [`0.0.3`](https://github.com/fanfare/disablegooglelens/releases/0.0.3) is an update specifically for Chrome users and is pending review on the Chrome Web Store.
 
 This version adds a new "Search Google for image" context menu item which loads image results in a new tab (instead of in the side panel).
 
@@ -8,7 +8,7 @@ This version adds a new "Search Google for image" context menu item which loads 
 
 If you want to try it out now,
 
-- download the [ZIP file](https://github.com/fanfare/disablegooglelens/releases/download/0.0.2/disable-google-lens_manifest_v3_chrome-0.0.2.zip)
+- download the [ZIP file](https://github.com/fanfare/disablegooglelens/releases/download/0.0.3/disable-google-lens_manifest_v3_chrome-0.0.3.zip)
 - unzip the file
 - in chrome, go to: `chrome://extensions`
 - remove any previously installed version of `Disable Google Lens`
