@@ -10,7 +10,7 @@ If you want to try it out now,
 
 - download the [ZIP file](https://github.com/fanfare/disablegooglelens/releases/download/0.0.2/disable-google-lens_manifest_v3_chrome-0.0.2.zip)
 - unzip the file
-- in chrome, go to: chrome://extensions
+- in chrome, go to: `chrome://extensions`
 - remove any previously installed version of `Disable Google Lens`
 - enable Developer Mode (top right corner).
 - drag the unzipped folder anywhere on the page to import it (do not delete the folder afterwards).
@@ -19,7 +19,7 @@ If you want to try it out now,
 
 After installing, you may want to remove the old/redundant "Search image with Google Lens" context menu item; Here's how to remove it:
 
-- in chrome, go to: chrome://settings/searchEngines
+- in chrome, go to: `chrome://settings/searchEngines`
 - scroll down and click the `Add` button (it's on the right-hand side)
 - set the `Search engine` field to be: `Google (w/o Lens)`
 - set the `Keyword` or `Shortcut` field to be: `google`
