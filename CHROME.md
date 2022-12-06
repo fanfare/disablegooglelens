@@ -1,10 +1,6 @@
 ## Chrome users
 
-Version `0.0.3` adds a "Search Google for image" context menu item which loads image results in a new tab (instead of in the side panel).
-
-### Post-installation
-
-After installing from the [Chrome Web Store](https://chrome.google.com/webstore/detail/disable-google-lens/dkapjhgpncbeiebegegdbpgfoabdkilh), you may want to remove the old/redundant "Search image with Google Lens" context menu item; Here's how to remove it:
+Version `0.0.3` adds a "Search Google for image" context menu item which loads image results in a new tab (instead of in the side panel). After installing from the [Chrome Web Store](https://chrome.google.com/webstore/detail/disable-google-lens/dkapjhgpncbeiebegegdbpgfoabdkilh), you may want to remove the old/redundant "Search image with Google Lens" context menu item; Here's how to remove it:
 
 - in chrome, go to: `chrome://settings/searchEngines`
 - scroll down and click the `Add` button (it's on the right-hand side)
