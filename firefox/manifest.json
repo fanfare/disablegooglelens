@@ -16,7 +16,7 @@
       "js": [ "content-script.js" ],
       "run_at": "document_start",
       "matches": [ "https://lens.google.com/*" ],
-      "include_globs": [ "*search?p*" ],
+      "include_globs": [ "*search*" ],
       "css": [ "style.css" ]
     }  
   ],
