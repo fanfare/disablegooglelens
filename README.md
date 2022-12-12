@@ -8,6 +8,6 @@ Works as a standalone extension or with [Google Images Restored](https://github.
 
 ## Installation
 
-This extension is available for [Chromium](https://chrome.google.com/webstore/detail/disable-google-lens/dkapjhgpncbeiebegegdbpgfoabdkilh) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/disablegooglelens/).
+This extension is available for [Chromium/Chrome](https://chrome.google.com/webstore/detail/disable-google-lens/dkapjhgpncbeiebegegdbpgfoabdkilh) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/disablegooglelens/).
 
 Regular Chrome users (non-Chromium), please see [CHROME.md](CHROME.md)
