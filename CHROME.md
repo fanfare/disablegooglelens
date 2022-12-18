@@ -16,4 +16,4 @@ Version `0.0.4` adds a "Search Google for image" context menu item which searche
 
 This should eliminate the unneeded "Search image with Google Lens" item from Chrome `>=97` (and removes the reundant "Search Google for image" item from Chrome `<=96`).
 
-It was reported that this may remove some other Google-related features; if you end up wanting to revert it back to how it was, change the default entry from `google.com` back to `Google`.
+It was reported that this may remove some other Google-related features; if you end up wanting to revert it back to how it was, set the default Search Engine back to `Google`.
