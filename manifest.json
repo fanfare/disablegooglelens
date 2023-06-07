@@ -1,7 +1,7 @@
 {
   "author": "fanfare",
   "name": "Disable Google Lens",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "manifest_version": 3,
   "description": "Redirects Google Lens to the normal image results",
   "homepage_url": "https://github.com/fanfare/disablegooglelens",
