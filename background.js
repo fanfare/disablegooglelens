@@ -1,8 +1,10 @@
+// probably rewrite this to use the old version
+
 const get = (URL) => {
   // handle ^http images
   let encodedURL = URL.replaceAll("?", '%3F').replaceAll("&", '%26')
   encodedURL = encodeURIComponent(URL)
-  let crawlRequestURL = `https://lens.google.com/uploadbyurl?url=${encodedURL}&hl=en&re=df&st=${+ new Date()}&ep=gisbubu`
+  let crawlRequestURL = `https://www.google.com/searchbyimage?client=firefox&image_url=${encodedURL}`
   chrome.tabs.create({  
     url: crawlRequestURL
   })
@@ -13,39 +15,24 @@ const post = async (URL) => {
   function randint(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min
   }
-  const blob = await (await fetch(URL)).blob()
-  const formData = new FormData()
-  formData.append("encoded_image", blob, `${randint(111111,999999)}.jpg`)
-  let response = await fetch(`https://lens.google.com/upload?hl=en&re=df&st=${+ new Date()}&ep=gisbubb`, {
-    "body": formData,
-    "method": "POST",
-    "mode": "cors"
-  })
-  .then(response => response.text())
-  .then((text) => {
-    if (text.indexOf("refresh") === -1) {
-      console.log("no base64 found")
-      return null
-    }
-    let index = text.indexOf('https://lens.google.com')
-    text = text.slice(index)
-    index = text.indexOf('"')
-    if (index === -1) {
-      index = text.indexOf("'")
-      if (index === -1) {
-        console.log("no closing quote found")
-        return null
-      }
-    }
-    text = text.slice(0,index)
-    if (!text.startsWith("http")) {
-      console.log("url does not start with http")
-      return null
-    }
-    chrome.tabs.create({  
-      url: text
+  fetch(URL)
+    .then((response) => response.blob())
+    .then((blob) => {
+      const formData = new FormData()
+      formData.append("encoded_image", blob, `${+ new Date()}.jpeg`)
+      formData.append("image_url", "")
+      formData.append("sbisrc", "Google Chrome 110.0.5481.78 (Official) Windows")
+      fetch("https://www.google.com/searchbyimage/upload", {
+        referrer: "",
+        mode: "cors",
+        method: "POST",
+        body: formData
+      }).then(response => {
+        chrome.tabs.create({  
+          url: response.url
+        })
+      })
     })
-  })    
 }
 
 
@@ -80,3 +67,25 @@ chrome.runtime.onInstalled.addListener(() => {
     }) 
   })
 })
+
+chrome.runtime.onMessage.addListener(
+  function(request, sender, sendResponse) {
+    fetch(request)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const formData = new FormData()
+        formData.append("encoded_image", blob, `${+ new Date()}.jpeg`)
+        formData.append("image_url", "")
+        formData.append("sbisrc", "Google Chrome 110.0.5481.78 (Official) Windows")
+        fetch("https://www.google.com/searchbyimage/upload", {
+          referrer: "",
+          mode: "cors",
+          method: "POST",
+          body: formData
+        }).then(response => {
+          sendResponse(response.url)
+        })
+      });    
+    return true
+  }
+);
