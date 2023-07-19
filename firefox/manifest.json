@@ -1,7 +1,7 @@
 {
   "author": "fanfare",
   "name": "Disable Google Lens",
-  "version": "0.0.7",
+  "version": "0.1.2",
   "manifest_version": 2,
   "description": "Redirects Google Lens to the normal image results",
   "homepage_url": "https://github.com/fanfare/disablegooglelens",
@@ -11,6 +11,9 @@
     "48": "48.png", 
     "32": "32.png" 
   },
+  "permissions": [
+    "https://www.google.com/*"
+  ],
   "content_scripts": [
     {
       "js": [ "content-script.js" ],
@@ -19,6 +22,5 @@
       "include_globs": [ "*uploadbyurl*", "*search*", "*v2/upload*", "*v3/upload*" ],
       "css": [ "style.css" ]
     }  
-  ],
-  "web_accessible_resources": [ "web.js"]
+  ]
 }
