@@ -4,7 +4,7 @@ const get = (URL) => {
   // handle ^http images
   let encodedURL = URL.replaceAll("?", '%3F').replaceAll("&", '%26')
   encodedURL = encodeURIComponent(URL)
-  let crawlRequestURL = `https://www.google.com/searchbyimage?client=firefox&image_url=${encodedURL}`
+  let crawlRequestURL = `https://lens.google.com/uploadbyurl?url=${encodedURL}`
   chrome.tabs.create({  
     url: crawlRequestURL
   })
